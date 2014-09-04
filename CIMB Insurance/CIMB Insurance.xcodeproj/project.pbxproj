@@ -22,6 +22,7 @@
 		D144FB6E19B825E400505170 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D144FB5219B825E400505170 /* CoreData.framework */; };
 		D144FB7619B825E400505170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D144FB7419B825E400505170 /* InfoPlist.strings */; };
 		D144FB7819B825E400505170 /* CIMB_InsuranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB7719B825E400505170 /* CIMB_InsuranceTests.m */; };
+		D144FB8419B8286200505170 /* SHCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB8319B8286200505170 /* SHCoreDataStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D144FB7319B825E400505170 /* CIMB InsuranceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CIMB InsuranceTests-Info.plist"; sourceTree = "<group>"; };
 		D144FB7519B825E400505170 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D144FB7719B825E400505170 /* CIMB_InsuranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIMB_InsuranceTests.m; sourceTree = "<group>"; };
+		D144FB8219B8286200505170 /* SHCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCoreDataStack.h; sourceTree = "<group>"; };
+		D144FB8319B8286200505170 /* SHCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,11 @@
 		D144FB5419B825E400505170 /* CIMB Insurance */ = {
 			isa = PBXGroup;
 			children = (
+				D144FB6019B825E400505170 /* CIMB_Insurance.xcdatamodeld */,
+				D144FB8119B827CC00505170 /* DataCore */,
 				D144FB5D19B825E400505170 /* SHAppDelegate.h */,
 				D144FB5E19B825E400505170 /* SHAppDelegate.m */,
 				D144FB6319B825E400505170 /* Images.xcassets */,
-				D144FB6019B825E400505170 /* CIMB_Insurance.xcdatamodeld */,
 				D144FB5519B825E400505170 /* Supporting Files */,
 			);
 			path = "CIMB Insurance";
@@ -151,6 +155,15 @@
 				D144FB7419B825E400505170 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D144FB8119B827CC00505170 /* DataCore */ = {
+			isa = PBXGroup;
+			children = (
+				D144FB8219B8286200505170 /* SHCoreDataStack.h */,
+				D144FB8319B8286200505170 /* SHCoreDataStack.m */,
+			);
+			name = DataCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D144FB8419B8286200505170 /* SHCoreDataStack.m in Sources */,
 				D144FB5B19B825E400505170 /* main.m in Sources */,
 				D144FB6219B825E400505170 /* CIMB_Insurance.xcdatamodeld in Sources */,
 				D144FB5F19B825E400505170 /* SHAppDelegate.m in Sources */,
