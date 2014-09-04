@@ -24,6 +24,7 @@
 		D144FB7819B825E400505170 /* CIMB_InsuranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB7719B825E400505170 /* CIMB_InsuranceTests.m */; };
 		D144FB8419B8286200505170 /* SHCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB8319B8286200505170 /* SHCoreDataStack.m */; };
 		D144FB8819B829FB00505170 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144FB8719B829FB00505170 /* MainStoryboard.storyboard */; };
+		D144FB8C19B84BCE00505170 /* SHContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB8B19B84BCE00505170 /* SHContactUsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		D144FB8219B8286200505170 /* SHCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCoreDataStack.h; sourceTree = "<group>"; };
 		D144FB8319B8286200505170 /* SHCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCoreDataStack.m; sourceTree = "<group>"; };
 		D144FB8719B829FB00505170 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = "CIMB Insurance/MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		D144FB8A19B84BCE00505170 /* SHContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHContactUsViewController.h; sourceTree = "<group>"; };
+		D144FB8B19B84BCE00505170 /* SHContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHContactUsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				D144FB8719B829FB00505170 /* MainStoryboard.storyboard */,
+				D144FB6019B825E400505170 /* CIMB_Insurance.xcdatamodeld */,
 				D144FB5419B825E400505170 /* CIMB Insurance */,
 				D144FB7119B825E400505170 /* CIMB InsuranceTests */,
 				D144FB4B19B825E400505170 /* Frameworks */,
@@ -121,8 +125,8 @@
 		D144FB5419B825E400505170 /* CIMB Insurance */ = {
 			isa = PBXGroup;
 			children = (
-				D144FB6019B825E400505170 /* CIMB_Insurance.xcdatamodeld */,
 				D144FB8119B827CC00505170 /* DataCore */,
+				D144FB8919B84BAC00505170 /* Contact Us Controller */,
 				D144FB5D19B825E400505170 /* SHAppDelegate.h */,
 				D144FB5E19B825E400505170 /* SHAppDelegate.m */,
 				D144FB6319B825E400505170 /* Images.xcassets */,
@@ -167,6 +171,15 @@
 				D144FB8319B8286200505170 /* SHCoreDataStack.m */,
 			);
 			name = DataCore;
+			sourceTree = "<group>";
+		};
+		D144FB8919B84BAC00505170 /* Contact Us Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D144FB8A19B84BCE00505170 /* SHContactUsViewController.h */,
+				D144FB8B19B84BCE00505170 /* SHContactUsViewController.m */,
+			);
+			name = "Contact Us Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 			files = (
 				D144FB8419B8286200505170 /* SHCoreDataStack.m in Sources */,
 				D144FB5B19B825E400505170 /* main.m in Sources */,
+				D144FB8C19B84BCE00505170 /* SHContactUsViewController.m in Sources */,
 				D144FB6219B825E400505170 /* CIMB_Insurance.xcdatamodeld in Sources */,
 				D144FB5F19B825E400505170 /* SHAppDelegate.m in Sources */,
 			);
@@ -484,7 +498,8 @@
 				D144FB6119B825E400505170 /* CIMB_Insurance.xcdatamodel */,
 			);
 			currentVersion = D144FB6119B825E400505170 /* CIMB_Insurance.xcdatamodel */;
-			path = CIMB_Insurance.xcdatamodeld;
+			name = CIMB_Insurance.xcdatamodeld;
+			path = "CIMB Insurance/CIMB_Insurance.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
