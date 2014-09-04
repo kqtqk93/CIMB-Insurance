@@ -23,6 +23,7 @@
 		D144FB7619B825E400505170 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D144FB7419B825E400505170 /* InfoPlist.strings */; };
 		D144FB7819B825E400505170 /* CIMB_InsuranceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB7719B825E400505170 /* CIMB_InsuranceTests.m */; };
 		D144FB8419B8286200505170 /* SHCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = D144FB8319B8286200505170 /* SHCoreDataStack.m */; };
+		D144FB8819B829FB00505170 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D144FB8719B829FB00505170 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D144FB7719B825E400505170 /* CIMB_InsuranceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIMB_InsuranceTests.m; sourceTree = "<group>"; };
 		D144FB8219B8286200505170 /* SHCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCoreDataStack.h; sourceTree = "<group>"; };
 		D144FB8319B8286200505170 /* SHCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCoreDataStack.m; sourceTree = "<group>"; };
+		D144FB8719B829FB00505170 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = "CIMB Insurance/MainStoryboard.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		D144FB4019B825E400505170 = {
 			isa = PBXGroup;
 			children = (
+				D144FB8719B829FB00505170 /* MainStoryboard.storyboard */,
 				D144FB5419B825E400505170 /* CIMB Insurance */,
 				D144FB7119B825E400505170 /* CIMB InsuranceTests */,
 				D144FB4B19B825E400505170 /* Frameworks */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D144FB8819B829FB00505170 /* MainStoryboard.storyboard in Resources */,
 				D144FB5919B825E400505170 /* InfoPlist.strings in Resources */,
 				D144FB6419B825E400505170 /* Images.xcassets in Resources */,
 			);
