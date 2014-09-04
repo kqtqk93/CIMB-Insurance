@@ -187,7 +187,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-ME-uzE">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-ME-uzE">
                                 <rect key="frame" x="20" y="518" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -200,6 +200,9 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YV2-62-CTc" firstAttribute="top" secondItem="sJz-ME-uzE" secondAttribute="bottom" constant="20" id="5gd-E7-RDd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Result" id="731-ld-PLN"/>
                 </viewController>
@@ -249,7 +252,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Are you currently our policy holder ?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEG-nj-Cn0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Are you currently our policy holder ?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEG-nj-Cn0">
                                 <rect key="frame" x="43" y="281" width="234" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -262,15 +265,15 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amW-R4-xRO">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amW-R4-xRO">
                                 <rect key="frame" x="225" y="310" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Your privacy is a priority. Your contact details will only be used to contact you via email/phone regarding our" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vA9-q5-ZnH">
-                                <rect key="frame" x="20" y="386" width="280" height="54"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your privacy is a priority. Your contact details will only be used to contact you via email/phone regarding our" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="vA9-q5-ZnH">
+                                <rect key="frame" x="20" y="348" width="280" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="highlightedColor"/>
@@ -289,8 +292,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWx-bS-Vys">
-                                <rect key="frame" x="114" y="437" width="92" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hWx-bS-Vys">
+                                <rect key="frame" x="114" y="399" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="find out more">
@@ -300,12 +303,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="RBn-Hg-vNG" firstAttribute="top" secondItem="Pdf-KL-o01" secondAttribute="bottom" constant="20" id="6Zg-jQ-5A2"/>
-                            <constraint firstItem="jS7-8H-y06" firstAttribute="top" secondItem="hWx-bS-Vys" secondAttribute="bottom" constant="89" id="Pot-hF-Vxl"/>
-                            <constraint firstItem="hWx-bS-Vys" firstAttribute="top" secondItem="YEG-nj-Cn0" secondAttribute="bottom" constant="97" id="biN-do-o0i"/>
-                            <constraint firstItem="jS7-8H-y06" firstAttribute="top" secondItem="vA9-q5-ZnH" secondAttribute="bottom" constant="116" id="qMA-zI-GCC"/>
-                            <constraint firstItem="RBn-Hg-vNG" firstAttribute="top" secondItem="jS7-8H-y06" secondAttribute="bottom" constant="20" id="yCA-WR-Jd3"/>
-                            <constraint firstItem="vA9-q5-ZnH" firstAttribute="top" secondItem="amW-R4-xRO" secondAttribute="bottom" constant="8" id="zmK-2a-hVI"/>
+                            <constraint firstItem="RBn-Hg-vNG" firstAttribute="top" secondItem="Pdf-KL-o01" secondAttribute="bottom" constant="20" id="lcn-x0-jbh"/>
+                            <constraint firstItem="RBn-Hg-vNG" firstAttribute="top" secondItem="jS7-8H-y06" secondAttribute="bottom" constant="20" id="rfq-N8-hxt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Contact Us" id="LE6-Dd-rDO"/>
