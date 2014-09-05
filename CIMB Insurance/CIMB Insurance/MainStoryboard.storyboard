@@ -187,7 +187,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-ME-uzE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJz-ME-uzE">
                                 <rect key="frame" x="20" y="518" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -202,6 +202,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="YV2-62-CTc" firstAttribute="top" secondItem="sJz-ME-uzE" secondAttribute="bottom" constant="20" id="5gd-E7-RDd"/>
+                            <constraint firstAttribute="trailing" secondItem="sJz-ME-uzE" secondAttribute="trailing" constant="20" id="idJ-M8-JRd"/>
+                            <constraint firstItem="sJz-ME-uzE" firstAttribute="leading" secondItem="Kiu-Hx-Bgj" secondAttribute="leading" constant="20" id="oaz-H1-Ran"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Result" id="731-ld-PLN"/>
